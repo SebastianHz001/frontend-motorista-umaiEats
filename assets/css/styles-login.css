@@ -1,0 +1,317 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0px;    
+}
+
+/* estilos landing-login*/
+#content-login {
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+#logo-login {
+    margin: 20px 0px 28px 0px;
+    width:300px;
+    height: 280px; 
+}
+#form {
+    color: #fff;
+    margin: 10px 20px 10px 20px;
+    
+}
+.login-button {
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+    font-size: 24px;
+    font-family: RobotoCondensed-Regular;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border-width: 0px;
+    padding: 18px;
+    justify-content: center;
+    background-color: #E12104;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    text-decoration-line: underline;
+    height: 100%;
+}
+#form h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    text-align: center;
+    font-family: Roboto-Regular;
+}
+#form h2 {
+    font-size: 1.4em;
+    margin-bottom: 18px;
+    text-align: center;
+    font-family: Roboto-Regular;
+}
+#invited-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    text-decoration-line: underline;
+    font-family: Roboto-Medium;
+
+}
+#space-control-button {
+    padding: 15px 45px 15px 45px;
+    text-align: center;
+}
+#space-invited-link {
+    padding-top: 28px;
+    text-align: center;
+}
+/*estilos landing-registrarse*/
+
+
+#content-register {
+    background-color: #fff;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+#nav-register {
+    background-color: #E12104 ; 
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+    border-radius: 5px 5px 10px 10px;
+    border: solid 1px #000;
+
+}
+#register-nav-button{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    border-width: 0; 
+    background-color: #E12104 ; 
+    font-size: 35px;
+    border-radius: 10px;   
+    margin: 10px 10px 10px 10px;
+}
+#bar-logo-register {
+    background-color: #E12104;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    border-radius: 0px 0px 100px 100px ;
+    border: solid 1px #000;
+}
+#logo-register {
+    margin: 10px 0px 10px 0px;
+    width:120px;
+    height: 100px; 
+}
+#interaction-register {
+    height: 100vh; 
+}
+#interaction-register h1{
+    padding: 20px 10px 20px 10px;
+    font-family: RobotoSlab-Medium;
+    font-size:23px ;
+    text-align: center;
+    margin: 110px 10px 10px 10px;
+}
+#space-button-register {
+    padding: 60px 80px 20px 80px;
+    text-align: center;
+
+}
+.register-button{
+    align-items: center;
+    width: 100%;
+    margin: 30px 0px 30px 0px;
+    font-size: 24px;
+    font-family: RobotoCondensed-Regular;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border-width: 0px;
+    padding: 20px;
+    justify-content: center;
+    background-color: #000;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    height: 100%;
+}
+/*estilos pagina de inicio de secion*/
+#form-login{
+    color: #fff;
+    margin: 10px 20px 10px 20px;
+}
+#form-login h1{
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    text-align: center;
+    font-family: RobotoSlab-Medium;
+    font-weight: normal;
+}
+#form-login h2{
+    font-size: 18px;
+    margin-bottom: 18px;
+    text-align: center;
+    font-family: Roboto-Regular;
+}
+#content-login-user {
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 100vh;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+    overflow: hidden;
+    
+}
+#logo-login-user {
+    margin: 20px 0px 20px 0px;
+    width:300px;
+    height: 280px; 
+    
+}
+#content-login-user #logo-login {
+    margin: 20px 0px 5px 0px;
+    width:300px;
+    height: 280px; 
+}
+#form {
+    color: #fff;
+    margin: 10px 20px 10px 20px;
+    
+}
+#form .text-start-user {
+    font-size: 28px;
+    text-align: center;
+    font-family: RobotoSlab-Medium;
+    font-weight: normal;
+    margin: 5px 0px 5px 0px ;
+}
+#space-start-setion {
+    margin: 0px 35px 0px 35px;
+    text-align: center;
+}
+.start-user-button2{
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+    font-size: 24px;
+    font-family: RobotoCondensed-Regular;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border-width: 0px;
+    padding: 18px;
+    justify-content: center;
+    background-color: #E12104;
+    font-weight: normal;
+    color: #fff;
+    cursor: pointer;
+    height: 100%;
+}
+#start-user-button {
+    
+    align-items: center;
+    width: 100%;
+    margin: 5px 0px 10px 0px;
+    font-size: 15px;
+    font-family: RobotoCondensed-Regular;
+    font-weight: normal;
+    box-sizing: border-box;
+    border-width: 0px;
+    padding: 10px 0px 5px 0px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;     
+}
+#forgot-password {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto-Regular;
+}
+#redict-create-account {
+    font-family: Roboto-Regular;
+    text-decoration: none;
+    color: #fff;
+    text-decoration-line: underline;
+    margin-left: 5px;
+    font-size: 15px;
+    
+    
+}
+.part-create-account{
+    font-family: Roboto-Regular;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;    
+}
+
+#nav-return-login-user {
+    background-color: rgba(0, 0, 0, 0) ; 
+    border-radius: 5px 5px 10px 10px;
+
+}
+#return-login-user{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    border-width: 0; 
+    background-color: rgba(0, 0, 0, 0); 
+    color: #fff;
+    font-size: 40px;
+    border-radius: 10px;   
+    margin: 25px 10px 15px 10px;
+    
+
+}
+.inper-space-link{
+    margin-top: 20px;
+}
+.start-user-button2{
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    font-size: 20px;
+    font-family: RobotoCondensed-Regular;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border-width: 0px;
+    padding: 14px;
+    background-color: #E12104;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    height: 100%;
+    
+}
+#space-button-start{
+    margin: 0px 45px 0px 45px;
+}
+
+

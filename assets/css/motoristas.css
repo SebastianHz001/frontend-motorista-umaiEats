@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+:root {
+	--poppins: 'Poppins', sans-serif;
+	--lato: 'Lato', sans-serif;
+}
+.Ordenes{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: var(--lato);
+  }
+  
+  .tarjeta-usuario-ordenes {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .tarjeta-usuario-ordenes .imagen {
+    flex: 1;
+    padding-right: 10px;
+  }
+  
+  .tarjeta-usuario-ordenes .detalle {
+    flex: 2;
+  }
+  
+  .tarjeta-usuario-ordenes .imagen img {
+    width: 100%;
+    
+  }
+
+  .boton-tomar{
+    background: #ea5655;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: .3s;
+    width: 150px;
+}
+.boton-tomar:hover{
+    box-shadow: inset 0 0 0 20px #843838;
+}
+
+.boton-rechazar{
+    background: #31485E;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: .3s;
+    width: 150px;
+}
+.boton-rechazar:hover{
+    box-shadow: inset 0 0 0 20px #446380;
+}
+#botones{
+    display: flex;
+    justify-content: space-between;
+}
+#Estado{
+    display: flex;
+    justify-content: center;
+}
+
+  #etiquetas{
+    display: grid;
+	grid-template-columns: 1fr 1fr ;
+    grid-column-gap: 20px;
+	grid-row-gap: 20px;
+  }
+    
+
+
+#ot, #er, #ec, #ed{
+    background: white;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: black;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: .3s;
+    width: 120px;
+}
+
+#ot{ background: #31485E;
+    color: #fff;}
+
+
+#ordenEntregada{
+    background: #ea5655;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: black;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: .3s;
+    width: 100px;
+}
+
+.div-vacio{
+    width: 15px;
+    height: 15px;
+}
+#etiquetaentregado{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+#nav-interface-client {
+    background-color:#314b5e; 
+    width: 100%;
+    height: 70px;
+}
+
+.inf-client-nav {
+    font-family: var(--lato);
+    color: #fff;
+
+}
+.inf-client-nav{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.edit-logo-profile{
+    width: 50px;
+    height: 50px;
+}
+
+
+#btnOrdenDisponibles{
+background: #ea5655;
+color: #fff;
+padding: 12px 20px;
+border-radius: 20px;
+border: none;
+margin: 0 5px;
+cursor: pointer;
+transition: .3s;
+width: 86%;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: var(--lato);
+font-size: 25px;
+margin-top: 20px;
+font-weight: bolder;
+}
+
+#btnOrdenDisponibles:hover{
+    color: #ea5655;
+    border: 5px solid #ea5655; 
+    background: #fff;
+}
+
+
+#btnOrdenTomada{
+    background: #314b5e;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: .3s;
+    width: 86%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--lato);
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: bolder;
+    }
+    
+    #btnOrdenTomada:hover{
+        color: #314b5e;
+        border: 5px solid #314b5e; 
+        background: #fff;
+    }
+
+
+
+    #btnOrdenEntregada{
+        background: #ea5655;
+        color: #fff;
+        padding: 12px 20px;
+        border-radius: 20px;
+        border: none;
+        margin: 0 5px;
+        cursor: pointer;
+        transition: .3s;
+        width: 86%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--lato);
+        font-size: 25px;
+        margin-top: 20px;
+        font-weight: bolder;
+        }
+        
+        #btnOrdenEntregada:hover{
+            color: #ea5655;
+            border: 5px solid #ea5655; 
+            background: #fff;
+        }
+        
+
+#infoOrdenesDisponible, #infoOrdenesTomadas,  #infoOrdenesEntregada{
+            display: none;
+        }
+
+
+#botonesMoto{
+    display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-row-gap: 20px;
+}
+
+#Regresar{
+ font-size: 50px;
+ display: block;
+}

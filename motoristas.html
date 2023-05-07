@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/motoristas.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/097bcbe9af.js" crossorigin="anonymous"></script>
+
+    <title>MotoristaUmai</title>
+</head>
+<body>
+
+    <div id="nav-interface-client" >
+        <div id="inf-interface-client">
+            <div class="inf-client-nav">
+                <img class="edit-logo-profile" src="assets/img/logo-perfil.png">
+                <h1 id="encabezadoMoto">¡Hola, Usuario!</h1>
+            </div>
+        </div>
+    </div>
+
+
+<div id="opciones">
+    <i onclick="regresar()" id="Regresar" class="fa-solid fa-arrow-left"></i>
+    <div id="botonesMoto">
+    <div onclick="ordeneDisponible(); obtenerOrdenesPendiente()" id="btnOrdenDisponibles">
+        <span >
+       Ordenes Disponibles
+        </span>
+     </div>
+     <div onclick="ordenTomada(); obtenerOrdenesProcesadas()" id="btnOrdenTomada">
+        <span >
+       Ordenes Tomadas
+        </span>
+     </div>
+     <div onclick="ordeneEntregada();obtenerOrdenesEntregadas()" id="btnOrdenEntregada">
+        <span>
+       Ordenes Entregadas
+        </span>
+     </div>
+    </div>
+</div>
+
+
+
+
+    <div id="infoOrdenesDisponible" class="Ordenes">
+        <h1>Ordenes Disponibles</h1>
+
+
+
+        <div id="seccion-orden-targeta">
+
+               <div class="tarjeta-usuario-ordenes"> 
+                  
+                  <div class="imagen">	
+               <img id="imgMotorista" src="assets/img/McDonals.png">
+               </div>
+               <div class="detalle">
+               
+                  <div>
+                     <span>
+                  Prodcuto: Big Mac
+                     </span>
+                  </div>
+                  <div>
+                     <span>
+                     Cantidad: 2
+                     </span>
+                  </div>
+               
+         
+               <div class="">
+                  <span id="ocupation">
+                  Precio: 360 LPS
+                  </span>
+                  </div>
+         
+                  <div class="">
+                     <span id="ocupation">
+                     Ubicacion: Boulevard Suyapa, Tegucigalpa
+                     </span>
+                     </div>
+               </div>
+            </div>
+            <div id="botones">
+            <button class="boton-tomar" >Tomar</button>
+            </div>
+<!-- ==================== -->
+         </div>
+
+       
+     </div>
+
+     <div id="infoOrdenesTomadas" class="Ordenes">
+        <h1>Ordenes Tomadas</h1>
+
+        
+        <div id="seccion-ordenes-tomadas">
+         <!-- ================ -->
+            <div class="tarjeta-usuario-ordenes"> 
+               
+               <div class="imagen">	
+            <img id="imgMotorista" src="assets/img/logo-perfil.png">
+            </div>
+            <div class="detalle">
+            
+               <div>
+                  <span>
+               Prodcuto: Big Mac
+                  </span>
+               </div>
+               <div>
+                  <span>
+                  Cantidad: 2
+                  </span>
+               </div>
+            
+      
+            <div class="">
+               <span id="ocupation">
+               Precio: 360 LPS
+               </span>
+               </div>
+      
+               <div class="">
+                  <span id="ocupation">
+                  Ubicacion: Boulevard Suyapa, Tegucigalpa
+                  </span>
+                  </div>
+
+                  <div class="">
+                     <span id="ocupation">
+                     Tomada por: Jose Perez
+                     </span>
+                     </div>
+               
+                     <div class="">
+                           <span id="ocupation">
+                           Telefono: 99636555
+                           </span>
+                        </div>
+                        <div class="">
+                           <span id="ocupation">
+                           Estado: procesada
+                           </span>
+                        </div>
+               </div>
+            </div>
+         <!-- ========================= -->
+         
+        </div>
+       
+       
+    
+     </div>
+
+
+
+     <div id="infoOrdenesEntregada" class="Ordenes">
+        <h1>Ordenes Entregada</h1>
+        <div id="seccion-orden-entregada">
+         <!-- ============================== -->
+            <div class="tarjeta-usuario-ordenes"> 
+               
+               <div class="imagen">	
+            <img id="imgMotorista" src="assets/img/McDonals.png">
+            </div>
+            <div class="detalle">
+            
+               <div>
+                  <span>
+               Prodcuto: Big Mac
+                  </span>
+               </div>
+               <div>
+                  <span>
+                  Cantidad: 2
+                  </span>
+               </div>
+            
+      
+            <div class="">
+               <span id="ocupation">
+               Precio: 360 LPS
+               </span>
+               </div>
+      
+               <div class="">
+                  <span id="ocupation">
+                  Ubicacion: Boulevard Suyapa, Tegucigalpa
+                  </span>
+                  </div>
+
+                  <div class=" div-vacio">
+                  
+                     </div>
+
+                  <div class="">
+                     <span id="ordenEntregada">
+                     Entregado
+                     </span>
+                     </div>
+               </div>      
+            </div>
+         <!-- ================================ -->
+        </div>
+   </div>
+
+   <dialog id="ordenTomada">
+      <p>Orden tomada con exito</p>
+      <input onclick="cerrarModal('ordenTomada')" type="button" value="Cerrar">
+   </dialog>
+
+   <dialog id="ordenEntregada">
+      <p>La orden a sido entregada con exito</p>
+      <input onclick="cerrarModal('ordenEntregada')" type="button" value="Cerrar">
+   </dialog>
+
+     <script src="assets/js/motoristas.js"></script>
+</body>
+</html>

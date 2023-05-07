@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login</title>
+</head>
+<body>
+    <div class="bg" id="bg">
+   <div class="box">
+    <div class="container">
+        <div class="top">
+            <div class="clogo">
+            <img src="assets/img/UmaiBlanco.png" alt="" id="logoLogin">
+        </div>
+            <header>Bienvenido Motorista!</header>
+        </div>
+        <div class="input-field">
+            <input id="emailM" type="text" class="input" placeholder="Usuario" id="">
+            <i class='bx bx-user' ></i>
+        </div>
+        <div class="input-field">
+            <input id="passM" type="Password" class="input" placeholder="Password" id="">
+            <i class='bx bx-lock-alt'></i>
+        </div>
+        <div class="input-field">
+            <input onclick="loginM()" type="submit" class="submit" value="Iniciar Sesion" id="">
+        </div>
+      <div class="divhr">
+        <hr color="white" size="3" width="80%">
+    </div>
+    <div class="noCuenta">
+        <label>No Tienes una cuenta?</label>
+    </div>
+        <div class="input-registrar">
+            <input type="submit" class="submit" value="Registrate" id="">
+        </div>
+    </div>
+</div> 
+</div>
+
+<script src="./assets/js/login.js"></script>
+</body>
+</html>

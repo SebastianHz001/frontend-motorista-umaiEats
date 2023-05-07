@@ -1,0 +1,404 @@
+/*estilos pagina cliente*/
+
+#interface-client {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #33495d;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+#nav-interface-client {
+    background-color:#33495d; 
+    height: 10vh;
+    width: 100%;
+}
+#menu-interface-client {
+    height: 80vh;
+    border-radius: 100px 0px 0px 0px;
+    width: 100%;
+    background-image: url(../img/fondo_int-client.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0px;   
+    opacity: 0.95;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+    
+} 
+.fond-menu-interface-client{
+    width: 100%;
+    height: 100%; 
+    border-radius: 100px 0px 0px 0px;    
+}
+.edit-logo-profile{
+    width: 50px;
+    height: 50px;
+}
+#nav-interface-client{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.inf-client-nav h1{
+    font-family: Roboto-Regular;
+    font-size: 22px;
+    color: #fff;
+    margin: 0px;
+    font-weight: normal;
+}
+.inf-client-nav{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+#button-interface-client{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    
+}
+.inf-client-location{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+}
+#inf-interface-client h2{
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #FFD700;
+    text-align: center;
+    font-weight: normal;
+}
+.inf-client-location{
+    color:#fff;
+}
+.inf-client-location h3{
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 5px;
+}
+.button-int-client-edit1{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 50px;
+    font-family: RobotoCondensed-Regular;
+    font-size: 18px;
+    color: #E12104;
+    font-weight: normal;
+    border-width: 0px;
+    cursor: pointer;
+}
+.button-int-client-edit2{
+    background-color: #0876F8;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: RobotoCondensed-Regular;
+    font-size: 18px;
+    font-weight: normal;
+    cursor: pointer;
+    box-sizing: border-box;   
+    border-width: 0px; 
+}
+#menu-interface-client {
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+
+	
+}
+#location{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+#location i{
+    margin-right: 5px;
+}
+
+
+#menu-option-client1{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+#menu-option-client2{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.suboption-menu-client{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.option-client-input1{
+    background-color: #33495d;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;
+    box-sizing: border-box;   
+    border-width: 0px; 
+    height: 250px;
+    width: 160px;
+    margin: 0px 15px 15px 0px;
+}
+.option-client-input2{
+    background-color: #ea5c7a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;
+    box-sizing: border-box;   
+    border-width: 0px; 
+    height: 125px;
+    width: 160px;
+    margin: 0px 0px 15px 15px;
+}
+.option-client-input3{
+    background-color: #ea5c7a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;
+    box-sizing: border-box;   
+    border-width: 0px; 
+    height: 125px;
+    width: 160px;
+    margin: 15px 0px 15px 10px;
+}
+.option-client-input4{
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;
+    box-sizing: border-box;   
+    border-width: 0px; 
+    height: 125px;
+    width: 160px;
+    margin: 15px 15px 15px 0px;
+}
+.option-client-input5{
+    background-color: #ea5c7a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;
+    box-sizing: border-box;   
+    border-width: 0px; 
+    height: 125px;
+    width: 160px;
+    margin: 15px 15px 0px 0px;
+}
+.option-client-input6{
+    background-color: #ea5c7a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;
+    box-sizing: border-box;   
+    border-width: 0px; 
+    height: 250px;
+    width: 160px;
+    margin: 15px 0px 0px 15px;
+}
+/*estilos pagina occiones del usuario*/
+#interface-client-option{
+    height: 100vh;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+#nav-interface-client-option{
+    background-color: #ea5c7a;
+    height: 22vh;
+    border-radius: 5px 5px 10px 10px;
+    border: solid 1px #000;
+}
+#menu-options-client{
+    background-color: #fff;
+    height: 78vh;
+    border-radius: 5px 5px 10px 10px;
+    border: solid 1px #000;
+}
+.nav-back-info-option-client{
+    background-color: rgba(255, 255, 255, 0.75);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+    border-radius: 15px ;
+    margin: 8px 10px 8px 10px;
+}
+#client-nav-button{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    border-width: 0; 
+    background-color: rgba(0, 0, 0, 0) ; 
+    font-size: 35px;
+    border-radius: 10px;   
+    margin: 10px 10px 10px 10px;
+}
+.edit-logo-profile-info{
+    width: 90px;
+    height: 85px;
+    padding: 10px;
+}
+.info-general-option-client{
+    background-color: rgba(255, 255, 255, 0.75);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+    border-radius: 15px ;
+    margin: 8px 10px 8px 10px;
+}
+.general-info-client h1{
+    font-family: Roboto-Regular;
+    font-size: 22px;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+.general-info-client h2{
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #000;
+    font-weight: normal;
+    margin: 0px 0px 0px 5px;
+}
+.just-icon-info{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.edit-menu-options-client{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+    
+}
+.menu-options-client-space{
+    margin: 30px 40px 10px 40px;
+}
+.edit-menu-options-client h1{
+    font-family: RobotoCondensed-Regular;
+    font-size: 24px;
+    font-weight: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.button-edit-menu-option-client{
+    color: #ea5c7a;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0px;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    font-size: 22px;
+}
+
+/*estilos pagina cliente restaurante*/
+#interface-client-restaurante{
+    height: 100vh;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+.img-restaurant-client{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+.info-general-restaurant{
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    border-radius: 15px ;
+    margin: 6px 0px 8px 10px;
+    width: 150px;
+    text-align: center;
+}
+.content-info-restaurant{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.button-int-client-edit1-1{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 28px;
+    color: #ea5c7a;
+    font-weight: normal;
+    margin-bottom: 15px;
+    border-width: 0px;
+    cursor: pointer;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    width: 60px;
+    height: 60px;
+}
+.button-int-client-edit1:hover{
+    background-color: #ea5c7a;
+    color: white;
+}
+
+h2{
+    font-family:  Helvetica, sans-serif;
+}
